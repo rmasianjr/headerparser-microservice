@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'views/index.html'));
 });
 
-app.get('/whoami', (req, res) => {
+app.get('/api/whoami', (req, res) => {
   const ipaddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
   const software = req.headers['user-agent'];
   const language = req.headers['accept-language'];
