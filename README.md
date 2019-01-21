@@ -1,12 +1,12 @@
 # headerparser-microservice
 
-### User stories:
+### User Story:
 
 1. I can get the IP address, preferred languages (from header Accept-Language) and system infos (from header User-Agent) for my device.
 
 ### Example usage:
 
-- [[base url]/api/whoiam]()
+- [https://api-headerparser-microservice.glitch.me/api/whoami](https://api-headerparser-microservice.glitch.me/api/whoami)
 
 ### Example output:
 
